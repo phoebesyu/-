@@ -29,6 +29,7 @@
                     <li><a href="#">聯絡我們</a></li>
                   <ul/> 
                </div>
+	       <div class="clearfix"></div>
             </div>     
        </div>    
       
