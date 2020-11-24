@@ -120,9 +120,7 @@ table {
         .logo .contact li{
         	float: left;
         }
-        .path{
-        	height: 60px;
-        }
+        
         .path h2 a{
         	float:left;
             display:block;
