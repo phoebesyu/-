@@ -1,0 +1,434 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap{
+        	width: 1025px;
+        	margin: 0 auto;
+        	background-color: # #fafafa;
+        }
+		
+		
+		.header{
+			width: 1025px;
+			margin: 0 auto;
+			margin-bottom: 130px;
+		}
+		.header {
+			position: relative;
+		}
+		.proflie{
+			display: flex;
+		}
+		.proflie .profiletitle h3{
+			font-family:MicrosoftJhengHeiRegular;
+			letter-spacing: 5px;
+			text-align: center;
+			font-size: 42px;
+			padding: 10px;
+        }
+        .proflie .profiletitle p{
+        	font-family:MicrosoftJhengHeiRegular;
+        	font-size: 14px;
+        	padding-bottom:10px;
+        	text-align:center;
+
+        }
+        .profiletitle{
+        	position: absolute;
+        	top:125px;
+        	left:135px;
+        }
+        .proflielink{
+        	position: absolute;
+        	top:125px;
+        	left:422px;
+        	
+        }
+
+        .proflielink ul .location a{
+        	display: block;
+        	background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/Icon-location.png);
+        	width: 42px;
+        	background-repeat: no-repeat;
+        	text-indent: 101%;
+        	white-space: nowrap;
+        	text-decoration: none;
+        	margin-bottom: 20px;
+        	padding-bottom: 20px;
+        	padding-top: 10px;
+        	
+        }
+        .proflielink ul .mail a{
+        	display: block;
+        	background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/Icon-mail.png);
+        	width: 42px;
+        	background-repeat: no-repeat;
+        	text-indent: 101%;
+        	white-space: nowrap;
+        	text-decoration: none;
+        	margin-bottom: 20px;
+        	padding-bottom: 20px;
+        	padding-top: 5px;
+        }
+        .proflielink ul .github a{
+        	display: block;
+        	background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/icon-github.png);
+        	width: 42px;
+        	background-repeat: no-repeat;
+        	text-indent: 101%;
+        	white-space: nowrap;
+        	text-decoration: none;
+        	margin-bottom: 20px;
+        	padding-bottom: 20px;
+        	padding-top: 10px;
+        }
+        .location a:hover{
+        	color: white;
+        }
+        .mail a:hover{
+        	color: white;
+        }
+        .github a:hover{
+        	color:white;
+        }
+        .skills h2{
+        	font-size: 24px;
+        	text-align: center;
+        	font-family:MicrosoftJhengHeiBold;
+        	color: #1736DC;
+        	margin-bottom: 80px;
+
+        }
+        .skillkind{
+        	display: flex;
+        	margin: 0 auto;
+        	width: 890px;
+        	background-color: #ffffff;
+        	box-sizing: border-box;
+
+        }
+        .skillone,.skilltwo,.skillthree {
+        	width:284px;
+        	height: 276px;
+        	border:1px solid #f5eeee;
+        	border-radius: 6px;
+        	box-shadow: 0 1px 1px 0 #33000000;
+        	text-align: center;
+        	margin-left: 17px;
+        	background-color: #ffffff;
+
+        }
+        .skillone img, .skilltwo img,.skillthree img{
+        	padding-top: 20px;
+        }
+        
+        .skillone h3,.skilltwo h3,.skillthree h3{
+        	font-size: 18px;
+        	padding-top: 25px;
+        	padding-bottom: 25px;
+        	text-align: center;
+        }	
+
+        
+        .skillone ul,.skilltwo ul ,.skillthree ul{
+        	list-style:disc;
+        	list-style-position: inside;
+        	line-height: 20px;
+        	font-size: 12px;
+        	text-align: left;
+        	padding-left: 50px;
+                }	
+        	
+        	
+
+        .skillone{
+        	border-bottom: 6px #f28d31 solid;
+        }
+        .skilltwo{
+        	border-bottom: 6px #539e43 solid;
+        }
+        .skillthree{
+        	border-bottom: 6px #6762a6 solid;
+        }
+
+        .experience h2{
+        	margin: 56px 0 48px 0px;
+        	text-align: center;
+        	font-size: 24px;
+        	color: #2845de;
+
+        }
+        .workdetail{
+        	display: flex;
+        	position: relative;
+        	height: 650px;
+        	
+        }
+        .workdessert{
+        	position: absolute;
+        	top:274px;
+        	left:227px;
+        }
+        .workhex{
+        	position: absolute;
+        	top:131px;
+        	left:537px;
+        }
+        .workfront{
+        	position: absolute;
+        	top:425px;
+        	left:549px;
+        }
+        .treeview{
+        	position: absolute;
+        	top:48px;
+        	left:496px; 
+
+        }
+        .workdetail .workdessert,.workdetail .workhex,.workdetail .workfront{
+        	border:1px solid #FB56BF;
+        	border-radius: 10px;
+        	width: 270px;
+        	height: 170px;
+        	text-align: right;
+        	line-height: 30px;
+
+        }
+        .workdetail .workhex,.workdetail .workfront{
+        	text-align: left;
+        }
+
+        .workdetail  p:nth-child(1){
+        	font-family: MicrosoftJhengHeiBold;
+        	font-size: 12px;
+        	color: #4A4A4A 
+
+        }
+        .workdetail  p:nth-child(2){
+        	font-family: MicrosoftJhengHeiBold;
+        	font-size: 12px;
+        	color: #8A1737 ;
+
+        }
+        .workdetail  p:nth-child(3){
+        	font-family: MicrosoftJhengHeiBold;
+        	font-size: 12px;
+        	color: #4A4A4A ;
+        }
+        .workdetail  p:nth-child(4){
+        	font-family: MicrosoftJhengHeiBold;
+        	font-size: 10px;
+        	color: #9B9B9B
+        }	
+        	
+
+
+
+
+        .treeview .grayhex img{
+        	margin-left: 5px;
+        } 
+        .treeview .grayhex p{
+        	height: 48px;
+        	width: 2px;
+        	margin: -2px 0px -2px 20px;
+        	background-color: #d8d8d8;
+        } 
+        .treeview .redhexone p,.treeview .redhextwo p{
+        	height: 143px;
+        	width: 2px;
+        	margin: -2px 0px -2px 20px;
+        	background-color: #d8d8d8;
+        } 
+        .treeview .redhexone img,.treeview .redhextwo img,.treeview .redhexthree img{
+        	margin-left: 9px;
+        }
+        .treeview .redhexthree p{
+        	height: 151.6px;
+        	width: 2px;
+        	margin: -2px 0px -2px 20px;
+        	background-color: #d8d8d8;
+        }
+        .treeview .barbuttom p{
+        	height: 4px;
+        	width: 46px;
+        	background-color: #d8d8d8;
+        }
+        
+
+
+        
+
+         .collectionbox{
+         	display: flex;
+         	width: 900px;
+         	margin: 0 auto;
+         }
+
+
+         .collection h2{
+        	font-size: 24px;
+        	color: #FB56BF;
+        	text-align: center;
+        	margin-top: 56px;
+        	margin-bottom: 46px;
+        }
+        
+        
+        .collectionone .collectionimg{
+        	background-color: #f3b3e3;
+        	width: 284px;
+        	height: 150px;
+        }	
+
+        	
+        
+         .collectionone .collectionimg img{
+           padding: 35px 0px 0px 76px;
+        }
+         .collectionone, .collectiontwo,.collectionthree{
+         	border:1px solid #e9e9e9 ;
+         	width: 284px;
+         	height: 213px;
+         	margin: 10px;
+
+
+        }
+         .collectionbox h3{
+           line-height: 19px;
+           padding: 10px;
+           font-weight: bold; 
+        }
+         .collectionbox p{
+         	padding-left: 10px;
+        }
+
+
+         .collectiontwoimg{
+         	background-color: #424242;
+         	width: 284px;
+        	height: 150px;
+
+        }
+         .collectiontwoimg img{
+         	padding: 35px 0px 0px 95px;
+        }
+
+
+         .collectionthreeimg{
+         	width: 284px;
+        	height: 150px;
+        	background-color: #8ad7fa;
+        }
+         .collectionthreeimg img{
+         	padding: 35px 0px 0px 95px;
+        } 
+         .collectionone:hover{
+         	box-shadow: 0px 10px 10px gray;
+        } 
+         .collectiontwo:hover{
+            box-shadow: 0px 10px 10px gray;
+        }
+         .collectionthree:hover{
+            box-shadow: 0px 10px 10px gray;
+        }
+         .about h2{
+         	color: #FB56BF ;
+         	font-size: 24px;
+         	text-align: center;
+         	margin: 99px 0px 48.6px 0px;
+        }
+        .aboutdetail{
+        	display: flex;
+        	width: 740px;
+        	margin: 0 auto;
+        	margin-bottom: 74px;
+        }
+        .aboutimg{
+        	
+        	margin:0px 20px 0px 20px ;
+
+        }
+        .aboutimg img{
+        	width: 260px;
+        	height: 335px;
+        }
+        .abouttext{
+        	width: 442px;
+        	font-size: 14px;
+        	line-height: 28px;
+        	font-family: MicrosoftJhengHeiRegular;
+        	margin: 30px; 
+        }
+        .footer h3{
+        	background-image: url(https://hexschool.github.io/HTML_sketch_export/assets/img-Looper-bg.png); 
+        	font-size: 16px;
+        	text-align: center;
+        	padding: 34px;
+        }
+
+
+         
+
+
