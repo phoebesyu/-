@@ -1,0 +1,534 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*-----------------------resetarea-----------------------------------------*/
+
+
+
+.wrap{
+    width: 1024px;
+	margin: 0 auto;
+	
+}
+.meunbar{
+	display: flex;
+	justify-content: space-between;
+	background: rgb(77, 74, 74) ;
+	opacity: 0.9;
+}
+.meunbar h2{
+	padding: 10px 0px 10px 40px;
+}
+
+ul{
+	display: flex;
+	
+}  
+.barul li a{
+	display: block;
+	text-decoration: none;
+	color:white;
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	
+    	
+}
+.barul li a:hover{
+	color:#00cc99;
+	
+}
+.barul li:hover{
+    border-bottom: 4px solid #00cc99 ;
+	
+}
+.footer{
+	background: #32322b;
+	display: flex;
+	justify-content: space-between;
+}
+.footerlogo{
+	padding: 34px 0px 35px 41px;
+	
+}
+.footerlogo h3{
+	color:#4e4e47;
+	font-size: 18px;
+	padding: 5px 0px 0px 32px;
+}
+.footersocial{
+	padding: 49px 42px 49px 0px;
+}
+.footersocial a{
+	padding-left: 22px;
+}
+.footersocial a:hover img{
+	border: #00cc99 2px solid;
+	border-radius: 50%;
+}
+/*------------------------以上共用的layout-------------------------------------------------------------------------------------------*/	
+.header{
+	
+	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png);
+}
+.header h1{
+	font-size: 45px;
+	color: #00cc99;
+	line-height: 80px;
+	padding-left: 40px;
+}
+.header .h1-one{
+	padding-top: 110px;
+}
+.header .h1-one span{
+	color:white;
+}
+.header .h1-two{
+	padding-bottom:60px ;
+}
+.header h3{
+	background: #00cc99;
+	width: 223px;
+	border-radius: 10px;
+	margin-left:  42px;
+	
+
+	
+}
+.header h3 a{
+	display: block;
+	text-decoration: none;
+	text-align: center ;
+	padding: 18px 40px 18px 40px;
+	color:white;
+	font-size: 18px;
+	
+
+}
+.header h3 a:hover{
+	background: rgb(187, 125, 135);
+	border-radius: 10px;
+}
+.headerbox{
+	padding-bottom: 118px;
+}
+.content{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.content h2{
+	font-size: 35px;
+	color:#00cc99;
+	display: inline;
+	padding-left: 40px;
+}
+.content span{
+	font-size: 20px;
+	color:#a2a2a2;
+	padding-left: 17px;
+}
+.course{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 32px 0px 60px 0px;
+	width: 1024px;
+	
+}
+.html5,.rwd,.jquery{
+	border:1px solid rgb(226, 225, 225);
+	text-align: center;
+	padding: 26px 18px 29px 18px;
+	width: 300px;
+	box-sizing: border-box;
+	box-shadow: 0px 10px 7px rgb(226, 225, 225) ;
+}	
+.html5:hover,.rwd:hover,.jquery:hover{
+	box-shadow: 10px 10px 10px gray;
+}
+.formtitle{
+	margin-bottom: 30px;
+}
+.form{
+	width: 950px;
+	margin:0 auto;
+	
+}
+form th, .form td{
+	border-top: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	text-align: center;
+}
+.form th{
+	background-color: #f7f7f7;
+	padding: 10px 80px 10px 30px;
+	font-weight:bold;
+}
+.form td{
+	padding:10px 70px 10px 20px;
+}
+.td-one,.td-two,.td-three,.td-four,.td-five,.td-six,.td-seven,.td-eight,.td-nine,.td-ten{
+	color:#22b28e;
+}
+.contact{
+	width: 1024px;
+	margin: 0 auto;
+	background: #ebebeb;
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	
+}
+.contact h2{
+	font-size: 29px;
+	line-height: 60px;
+	padding: 140px 112px 152px 43px;
+	
+}
+.namebox, .mailbox{
+	display: block;
+	width: 400px;
+	padding: 20px 0px 20px 10px;
+	border-radius: 8px;
+	margin-top: 20px;
+	border:none;
+}
+.namebox:hover,.mailbox:hover{
+	box-shadow:0px 5px 5px rgb(245, 160, 145);
+}
+.contact .btn{
+	background: #22b28e;
+	border:none;
+	border-radius: 8px;
+	width: 140px;
+	padding: 15px 0px 15px 0px;
+	margin: 20px 0px 0px 270px;
+	font-size: 18px;
+	color:white
+
+}
+.contact .btn:hover{
+   background:rgb(187, 125, 135);
+   cursor: pointer;
+}
+
+/*------------css第二頁分隔線---------------------*/
+
+
+
+
+	.header-2{
+		background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_course.png);
+		padding-bottom: 210px;
+
+	}
+	.headtitle{
+		display: flex;
+		justify-content: space-between;
+	}
+	.headtitletext h1{
+		font-size: 38px;
+		color:white;
+		padding: 109px 0px 0px 32px;
+	}
+	.headtitleimg{
+		padding: 40px 59px 0px 0px;
+	}
+	.headtitletext h2{
+		color:#22b28e;
+		font-size: 23px;
+		padding: 14px 0px 58px 32px;
+	}
+	.headlink{
+		display: block;
+		background: #22b28e;
+		width: 220px;
+		padding: 15px 0px 15px 0px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		font-size: 18px;
+		border-radius: 8px;
+		margin-left: 32px;
+	}
+	.headlink:hover{
+		background:white;
+		color:#22b28e;
+	}
+	.content-two{
+		width: 800px;
+		margin: 0 auto;
+		margin-bottom: ;
+	}
+    .teacher{
+		display: flex;
+		
+	}
+	.teacher ul{
+		display: block;
+	}
+	.teacher img{
+		padding:58px 38px 58px 100px; 
+	}
+	.teachername{
+		font-size: 35px;
+		color: #22b28e;
+		padding-top: 128px;
+		line-height: 45px;
+	}
+	.teachername-h2{
+		color:black;
+	}
+	.teacher ul{
+		list-style-type:disc;
+		color:#9b9b9b;
+		padding: 128px 100px 97px 60px;
+		line-height: 25px;
+	}
+	.special h2{
+	   color:#22b28e;
+	   font-size: 35px;
+	   padding-bottom: 31px;
+	}
+	.special span{
+		color:#9b9b9b;
+		font-size: 19px;
+		padding-left: 15px;
+	}
+	.special ol{
+		list-style-type:decimal ;
+		padding:0px 0px 61px 20px;
+		
+	}
+	.special ol li{
+		line-height: 30px;
+		font-size: 17px;
+	} 
+	.course-2 h2{
+		font-size:35px ;
+		color: #22b28e;
+		padding: 0px 19px 27px 0px;
+
+	}
+	.course-2 span{
+		font-size: 19px;
+		color: #9b9b9b;
+		
+	}
+	.course-2 ul{
+		display: block;
+
+	}
+	
+	.course-2 li{
+		color:#9b9b9b;
+		padding: 19px 0px 21px 38px;
+	}
+	.course-2 .topic{
+		background: #dddcdc;
+		color: black;
+		padding: 19px 0px 19px 38px;
+	}
+	.signup{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#dddcdc;
+		margin-top: 60px;
+		
+	}
+	.signup h2{
+		font-size: 25px;
+		color: #32322b;
+		line-height: 50px;
+		padding: 153px 65px 153px 0px;
+		
+	}
+	.signup a{
+		background: #22b28e;
+		color: white;
+		padding: 16px 0px 16px 0px;
+		width: 214px;
+		text-align: center;
+		border-radius: 8px;
+		text-decoration: none;
+		font-size: 18px;
+		margin-top: 30px;
+	}
+	.signup a:hover{
+		background: white;
+		color: #22b28e;
+	}
+	/*-------------ＣＳＳ第三頁分隔--------------------*/
+	.header-3{
+		background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_QA.png);
+		text-align: center;
+		padding-bottom: 165px;
+	}
+	.header-3 h1{
+		font-size: 44px;
+		color: white;
+		padding: 108px 0px 17px 0px;
+	}
+	.header-3 .opening h2{
+		font-size: 23px;
+		color: #22b28e;
+		padding-bottom: 52px;
+	}
+	.header-3 input{
+		background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/search.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-size: 30px;
+		width: 50%;
+		padding: 15px 0px 15px 10px;
+		border-radius: 8px;
+	
+	}
+	.header-3 input::placeholder{
+		font-size: 18px;
+	}
+	.header-3 input:hover{
+		border:3px solid #22b28e;
+	}
+	.content-3{
+		width: 800px;
+		margin: 0 auto;
+	}
+    .content-3 h2{
+		font-size: 35px;
+		color: #22b28e;
+		padding: 58px 20px 10px 0px;
+	}
+	.content-3 span{
+		font-size: 19px;
+		color:#a2a2a2;
+	}
+	.content-3 h3{
+		font-size: 19px;
+		line-height: 40px;
+		padding-top: 30px;
+
+	}
+	.content-3 p{
+		color: #a2a2a2;
+		line-height: 26px;
+	}
+	.content-3 .notice{
+		color: black;
+	}
+	.content-3 .spilt{
+		list-style:decimal;
+		padding: 5px 0px 0px 40px;
+		line-height: 25px;
+		color: #a2a2a2;
+		
+	}
+	.content-3 .reason, .credit{ 
+		display:block;
+		color: #9b9b9b;
+		list-style-type: disc;
+		padding: 5px 0px 30px 40px;
+		line-height: 25px;
+	}
+	.content-3 a{
+		text-decoration: none;
+		color: #22b28e;
+		font-weight: bold;
+	}
+	.content-3 a:hover{
+		color:rgb(139, 139, 236);
+	}
+	.bottommail{
+		display: flex;
+		background:#ebebeb;
+		justify-content: space-around;
+	}
+	.bottommailh2 {
+		font-size: 28px;
+		line-height: 2;
+		padding-top: 135px;
+	}
+	.qform{
+		margin-top: 135px;
+	}
+	.qform input{
+		display: block;
+		padding: 17px 0px 17px 22px;
+		width: 440px;
+		border-radius: 8px;
+		border:none;
+		margin-bottom: 19px;
+		
+	}
+	.qform input:hover{
+		box-shadow: #22b28e 0px 5px 5px;
+	}
+	.qform textarea{
+		border:none;
+		width:456px;
+		border-radius: 8px;
+	}
+	.qform textarea:hover{
+		box-shadow:#22b28e 0px 5px 5px;
+	}
+	.qform .btn-3{
+		background:#22b28e;
+		padding: 15px 0px 15px 0px;
+		width: 140px;
+		color: white;
+		font-size: 18px;
+		margin: 19px 0px 63px 320px;
+	}
+    .qform input::placeholder{
+		font-size: 20px;
+	}
+	.qform textarea::placeholder{
+		font-size: 20px;
+		padding: 10px;
+	}
